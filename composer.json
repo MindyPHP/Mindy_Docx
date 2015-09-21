@@ -1,0 +1,26 @@
+{
+    "name": "mindy/docx",
+    "homepage": "http://studio107.ru",
+    "type": "library",
+    "version": "1.0",
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "Mindy\\Docx\\": "src/Mindy/Docx"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Maxim Falaleev",
+            "email": "max@studio107.ru",
+            "homepage": "http://studio107.ru",
+            "role": "Developer"
+        }
+    ]
+}
